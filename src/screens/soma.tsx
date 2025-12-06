@@ -29,6 +29,7 @@ export function Soma() {
             onChangeText={(text) => setValor2((text))}
             />
             <BotaoCustomizado title="soma"
+            
             onPress={somar}
             />
             <Text>Resultado: {resultado}</Text>
