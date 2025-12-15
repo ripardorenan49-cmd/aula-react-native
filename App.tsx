@@ -6,12 +6,13 @@ import { LoginScreen } from '@/screens/login';
 import { Soma } from '@/screens/soma';
 import { ListaScreens } from '@/screens/lista';
 import { TelaSoma } from '@/screens/TelaSoma';
+import { TelaContador } from '@/screens/TelaContador';
 
 export default function App() {
   return (
     <>
       <SafeAreaView className="flex-1">
-        <TelaSoma />
+        < TelaContador />
       </SafeAreaView>
 
       <StatusBar style="auto" />

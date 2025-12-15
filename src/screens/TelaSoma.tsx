@@ -22,7 +22,6 @@ function logar() {
         setResultado(0);
         }, [valor1, valor2, valor3]);
     
-        return (
             <View className="w-full flex-1 items-center justify-center gap-5 p-5">
                 <Text className="text-3xl">Soma</Text>
                 <InputCustomizado placeholder={"Valor um"}
@@ -37,13 +36,13 @@ function logar() {
                 keyboardType="numeric"
                 onChangeText={(text) => setValor3((text))}
                 />
-                <BotaoCustomizado title="soma"
+                <BotaoCustomizado title="Calcular"
                 
                 onPress={somar}
                 />
                 <Text className="text-3xl">Resultado: {resultado}</Text>
             </View>
-            )
+            
 
     return (
     
